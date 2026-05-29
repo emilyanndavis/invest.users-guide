@@ -278,7 +278,7 @@ The ``intermediate`` folder contains additional model outputs:
 * **cc_masked_green_areas_[Suffix].tif**: Raster of CC values masked by non-green areas.
 * **cc_park_[Suffix].tif**: Map of cooling capacity decayed by proximity to greenspace.
 * **cc_ref_aoi_stats.pickle**: Pickled zonal statistics for CC raster within the AOI.
-* **eti_[Suffix].tif**: Raster of actual evapotranspiration (reference evapotranspiration times crop coefficient "Kc").
+* **eti_[Suffix].tif**: Raster of evapotranspiration index (reference evapotranspiration (ETo) times crop coefficient (Kc) divided by ETmax).
 * **green_area_sum_[Suffix].tif**: Raster of total area of green space within a search distance around each pixel.
 * **green_area_[Suffix].tif**: Map of green area.
 * **heavy_loss_stats.pickle**: Pickled zonal statistics for heavy work loss.
